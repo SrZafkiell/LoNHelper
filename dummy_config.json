@@ -1,0 +1,57 @@
+{
+  "bot-credentials": {
+    "bot-token": "Your-Bot-Token",
+    "bot-owner-id": "",
+    "bot-application-id": "",
+    "bot-prefix": "",
+    "bot-command-prefix": ""
+  },
+  "api-credentials": {
+    "google-api-key": "",
+    "twitch-api-key": ""
+  },
+  "extensions": {
+    "greetings-extension": {
+      "welcome-message" : "",
+      "goodbye-message": ""
+    },
+    "translator-extension": {
+      "english-translation-role-id": [],
+      "messages": {
+        "error-loading-databases": ""
+      }
+    },
+    "announce-extension": {
+      "announcer-ranks": ["", "", ""],
+      "test": "test"
+    }
+  },
+  "developer-settings": {
+    "command-syncing": {
+      "sync-commands": false,
+      "sync-commands-global": true,
+      "sync-commands-dev-guild-id": ""
+    },
+    "debug-mode": true,
+    "error-logging-mode": 3,
+    "database-settings": {
+      "redis-settings": {
+        "redis-host": "",
+        "redis-port": 6379,
+        "redis-max-connections": 5,
+        "redis-bot-index": 15,
+        "redis-dict-index": 14
+      },
+      "mongo-settings": {
+        "mongo-host": "",
+        "mongo-port": 0,
+        "mongo-user": "",
+        "mongo-password": "",
+        "mongo-bot-database": "",
+        "mongo-bot-auth-source": "",
+        "mongo-dict-database": "",
+        "mongo-dict-auth-source": ""
+      }
+    }
+  }
+}
